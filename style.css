@@ -1,0 +1,336 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.header{
+    background:#bbb url("assets/content-1.png");
+}
+
+.addr{
+    background-color:#e53935;
+}
+
+.menu{
+    padding:10px 40px !important;
+}
+
+.menu .navbar-nav{
+    font-size:18px;
+}
+
+.menu .nav-link{
+    color:#fff !important;
+    padding:5px 15px !important;
+    margin:5px;
+}
+
+.menu .active{
+    background-color:#e53935;
+    border-radius:20px;
+}
+
+.contactActive{
+    background-color:#444;
+    border-radius:20px;
+}
+
+.menu .lang{
+    background-color:#fff;
+    color:#aaa !important;
+    border-radius:20px;
+}
+
+.fa-shopping-cart, .fa-bars{
+    font-size:30px;
+}
+
+.fa-map-marker, .fa-envelope, .fa-phone{
+    font-size:24px;
+}
+
+.header-body{
+    margin-top:100px;
+}
+
+.header-body h1{
+    font-weight:bold;
+    font-size:60px;
+    color:#fff;
+}
+
+.header-body p{
+    font-size:24px;
+    color:#fff;
+    padding-bottom:10px;
+    margin-bottom:0px;
+}
+
+.subscribe{
+    background-color:#000;
+    color:#fff;
+    padding:40px 100px;
+    border-bottom:1px solid #666;
+}
+
+.subscribe input{
+    padding:40px !important;
+    border-radius:10px;
+}
+
+.subscribe button{
+    padding:28px 35px !important;
+    border-radius:10px;
+}
+
+.footer{
+    background-color:#000;
+    padding:10px 40px !important;
+    margin:0px;
+    color:#fff;
+}
+
+.footer-section{
+    min-height:100px;
+    padding:40px;
+}
+
+.footer-section li{
+    list-style-type:none;
+    margin-top:22px;
+}
+
+.address{
+    padding:40px 40px 0px 40px;
+}
+
+.address-header{
+    margin-top:30px;
+    margin-bottom:60px;
+}
+
+.address-header h1{
+    font-size:60px;
+    font-weight:bold;
+    color:#444;
+}
+
+.address-header p{
+    font-size:22px;
+    font-weight:bold;
+    color:#444;
+}
+
+.address-menu .nav-link{
+    font-size:19px;
+    font-weight:bold;
+    padding:12px 30px !important;
+    margin-left:20px;
+    border-radius:25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.address-menu .active{
+    background-color:#e53935;
+    color:#fff !important;
+}
+
+.address-body{
+    padding:15px 80px 0px 80px;
+}
+
+.address-body .avatar{
+    height:350px;
+    background-color:#ffcccc;
+    border-radius:20px 0px 0px 20px;
+}
+
+.address-body .addressBook{
+    min-height:700px;
+    border-radius:20px 20px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.address-body img{
+    padding:25% 25% 0% 25%;
+}
+
+.address-body h3{
+    color:red;
+    font-weight:bold;
+    font-size:22px;
+}
+
+.address-body .addressBook{
+    padding:40px !important;
+    color:#666;
+}
+
+.address-body .addressBook .btn{
+    font-size:20px !important;
+    border-radius:10px;
+}
+
+.fa-plus-circle{
+    font-size:24px;
+}
+
+.addressbook-body{
+    font-size:20px;
+}
+
+.addressbook-content{
+    padding:20px 30px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:30px;
+}
+
+.addressbook-content p{
+    font-size:18px;
+}
+
+.addressbook-content .fa-edit, .addressbook-content .fa-trash, .addressbook-content .fa-check-circle{
+    font-size:40px;
+    margin-left:10px;
+}
+
+.addressbook-content .fa-check-circle{
+    color:#ddd;
+}
+
+.addressbook-content .active{
+    color:lightgreen;
+}
+
+.addressbook-content .fa-trash{
+    color:red;
+}
+
+a{
+    color:#fff;
+    text-decoration:none;
+}
+
+a:hover{
+    color:red;
+    text-decoration:none;
+}
+
+.addressBook input{
+    padding:35px 10px 35px 80px;
+    border-radius:8px;
+    border:none;
+    font-size:18px;
+    background-color:rgb(245 245 245);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.addressBook .save{
+    padding:15px 50px;
+}
+
+.addressBook label{
+    font-size:17px;
+    font-weight:bold;
+    padding:8px 0px;
+    color:#777;
+}
+
+.img_abs{
+    position:absolute;
+    bottom:38px;
+    left:-80px;
+}
+
+.inputPhone{
+    padding:35px 110px !important;
+}
+
+.fa-angle-down{
+    font-size:22px;
+    position:absolute;
+    left:70px;
+    top:10px;
+}
+
+.img_abs2{
+    position:absolute;
+    bottom:36px;
+    left:15px;
+}
+
+.pass{
+    padding:35px !important;
+}
+
+.modal-dialog{
+    background:#fff url("assets/x-2.png") repeat right top !important;
+}
+
+.modal-content{
+    background-color:transparent !important;
+}
+
+.sectionTwo{
+    padding:20px 50px 0px 0px;
+}
+
+.sectionTwo .btn-danger{
+    padding:15px 25px;
+    border-radius:30px;
+    font-size:20px;
+}
+
+.sectionTwo input{
+    padding:35px 10px 35px 70px;
+    font-size:20px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sectionTwo input[type=checkbox]{
+    -webkit-transform:scale(2);
+    margin:0px;
+    margin-top:8px;
+}
+
+.checkBoxText{
+    padding-left:25px;
+    font-size:20px;
+}
+
+.fa-arrow-right{
+    color:#fff;
+    position:relative;
+    bottom:52px;
+    left:400px;
+}
+
+.sectionTwo .btn-block{
+    padding:20px;
+    font-size:24px;
+    border-radius:10px;
+}
+
+.sectionTwo .Modalphone{
+    padding:35px 10px 35px 100px !important;
+}
+
+.sectionTwo .modalImg{
+    position:relative;
+    top:50px;
+    left:15px;
+}
+
+.sectionTwo .modalFlag{
+    position:relative;
+    top:52px;
+}
+
+.sectionTwo .form-group{
+    margin-bottom:0px;
+}

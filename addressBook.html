@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Menu Fast Store</title>
+        <link rel="icon" href="icons/Group 3897.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid addr">
+            <div class="container-fluid menu">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="addressBook.html"><img src="icons/Menu_Fast_logoAsset 8HD.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link menu1" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link menu1" href="#">Browse Restaurant</a>
+                        <a class="nav-item nav-link menu1" href="#">Restaurant Signup</a>
+                        <a class="nav-item nav-link menu1 contactActive" href="#">Contact</a>
+                        <a class="nav-item nav-link menu1" href="#" data-toggle="modal" data-target="#signUp">Login & Signup</a>
+                        <a class="nav-item nav-link lang" href="#">English</a>
+                        <a class="nav-item nav-link" href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        <a class="nav-item nav-link" href=""><i class="fa fa-bars" aria-hidden="true"></i></a>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <!--   Sign Up Modal   -->
+
+        <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="row">
+                        <div class="col-md-6 sectionOne">
+                            <img src="icons/Group 3886.png">
+                        </div>
+                        <div class="col-md-6 sectionTwo">
+                            <button class="btn btn-danger mb-2">Signup</button>
+                            <form>
+                                <div class="form-group">
+                                    <div class=" row">
+                                        <div class="col-md-6">
+                                            <img class="modalImg" src="icons/Icon feather-user.png">
+                                            <input type="text" class="form-control" id="fastName" placeholder="First Name">
+                                        </div>
+                                        
+                                        <div class="col-md-6">
+                                            <img class="modalImg" src="icons/Icon feather-user.png">
+                                            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="modalFlag col-md-1">
+                                        <img src="icons/dtzjbrf1.png">
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
+                                  <input type="number" class="form-control Modalphone" id="phone" placeholder="+967">
+                                </div>
+
+                                <div class="form-group">
+                                    <img class="modalImg" src="icons/mail.png">
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                </div>
+
+                                <div class="form-group">
+                                    <img class="modalImg" src="icons/password.png">
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+
+                                <div class="form-group">
+                                    <img class="modalImg" src="icons/password.png">
+                                    <input type="password" class="form-control" id="confirmPass" placeholder="Confirm password">
+                                </div>
+
+                                <div class="form-check mt-2">
+                                    <input type="checkbox" class="form-check-input" id="Check">
+                                    <label class="form-check-label" for="Check"><span class="checkBoxText">By creating an account, you agree to receive sms from vendor</span></label>
+                                  </div>
+
+                                <button type="submit" class="btn btn-success btn-block mt-3">Submit</button>
+                                <i class="fa fa-arrow-right"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--   Address Book Section    -->
+
+        <div class="address">
+            <div class="container-fluid">
+                <div class="address-header">
+                    <h1 class="text-center">Profile</h1>
+                    <p class="text-center">Manage your profile,address book,credit card and more.</p>
+                </div>
+
+                <div class="address-menu">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link menu2" href="profile.html">Profile</a>
+                            <a class="nav-item nav-link menu2 active" href="addressBook.html">Address Book</a>
+                            <a class="nav-item nav-link menu2" href="#">Order History</a>
+                            <a class="nav-item nav-link menu2" href="#">Booking History</a>
+                            <a class="nav-item nav-link menu2" href="#">Favourites</a>
+                            <a class="nav-item nav-link menu2" href="#">Credit Cards</a>
+                            <a class="nav-item nav-link menu2" href="#">My Points</a>
+                        </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class=" container-fluid address-body mt-4">
+                    <div class="row">
+                        <div class="col-md-3 mt-3 avatar">
+                            <img src="assets/nei-1.png">
+                            <h3 class="text-center mt-3">Change Avatar</h3>
+                        </div>
+                        <div class="col-md-9 addressBook">
+                            <div class="row">
+                                <h1 class="col-md-4">Address Book</h1>
+                                <button class="col-md-2 offset-md-6 btn btn-danger justify-content-end"><i class="fa fa-plus-circle mr-3"></i> Add New</button>
+                            </div>
+                            <div class="mt-5">
+                                <div class="row addressbook-body">
+                                    <div class="col-md-4 pl-5">
+                                        <p>Address</p>
+                                    </div>
+                                    <div class="col-md-4 pl-4">
+                                        <p>Location Name</p>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <p>Default</p>
+                                    </div>
+                                </div>
+
+                                <div class="row addressbook-content">
+                                    <p class="col-md-4">Lorem ipsum simply dummy<br>content provide</p>
+                                    <p class="col-md-4">Lorem ipsum simply dummy<br>content provide</p>
+                                    <div class="col-md-4 text-center">
+                                        <i class="fa fa-edit"></i>
+                                        <i class="fa fa-trash"></i>
+                                        <i class="fa fa-check-circle active"></i>
+                                    </div>
+                                </div>
+
+                                <div class="row addressbook-content">
+                                    <p class="col-md-4">Lorem ipsum simply dummy<br>content provide</p>
+                                    <p class="col-md-4">Lorem ipsum simply dummy<br>content provide</p>
+                                    <div class="col-md-4 text-center">
+                                        <i class="fa fa-edit"></i>
+                                        <i class="fa fa-trash"></i>
+                                        <i class="fa fa-check-circle"></i>
+                                    </div>
+                                </div>
+
+                                <div class="row addressbook-content">
+                                    <p class="col-md-4">Lorem ipsum simply dummy<br>content provide</p>
+                                    <p class="col-md-4">Lorem ipsum simply dummy<br>content provide</p>
+                                    <div class="col-md-4 text-center">
+                                        <i class="fa fa-edit"></i>
+                                        <i class="fa fa-trash"></i>
+                                        <i class="fa fa-check-circle"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--   Subscribe Section    -->
+
+        <div class="subscribe">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1>Subscribe to our<br>newsletter.</h1>
+                </div>
+                <div class="col-md-5 mt-2">
+                    <input type="email" class="form-control" placeholder="Enter Your Email">
+                </div>
+                <div class="col-md-2 mt-2">
+                    <button class="btn btn-danger">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        
+        <!--    Footer Section    -->
+
+        <div class="footer container-fluid row">
+            <div class="col-md-3 footer-section">
+                <img src="icons/Menu_Fast_logoAsset 8HD.png" height="20%" width="50%">
+                <p class="mt-3">Loren ipsum dolor sit amet,<br/>consectetur adipiscing elit, sed do<br/> eiusmod tempor incididunt ut labore<br/> et dolore magna aliqua.</p>
+                <p class="mt-4">Copyright 2020 - All right Recived</p>
+                <div class="row">
+                    <a href="https://www.linkedin.com/" class="ml-3" target="_blank"><img src="icons/Path 5010.png"></a>
+                    <a href="https://www.twitter.com/" class="ml-3" target="_blank"><img src="icons/Path 5009.png"></a>
+                    <a href="https://www.facebook.com/" class="ml-3" target="_blank"><img src="icons/Group 3868.png"></a>
+                </div>
+            </div>
+            <div class="col-md-4 footer-section">
+                <h2>Menu</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul>
+                            <li><a href="">Seafood(2)</a></li>
+                            <li><a href="">Vegetarian(1)</a></li>
+                            <li><a href="">SandWiches(2)</a></li>
+                            <li><a href="">Grills(1)</a></li>
+                            <li><a href="">Fast Food(4)</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li><a href="">Pizza(4)</a></li>
+                            <li><a href="">Egyptian Food(1)</a></li>
+                            <li><a href="">Turkish Food</a></li>
+                            <li><a href="">Indian Food</a></li>
+                            <li><a href="">Pies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 row">
+                <div class="col-md-5 footer-section">
+                    <h2>Other</h2>
+                    <ul>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Business</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-7 footer-section">
+                    <h2>Connect with us</h2>
+                    <div class="row">
+                        <i class="col-md-2 fa fa-map-marker mt-3"></i>
+                        <p class="mt-3 offset-md-1">Yemen Sanaa<br>YemenYemen Sanaa</p>
+                    </div>
+                    <div class="row">
+                        <i class="col-md-2 fa fa-envelope mt-3"></i>
+                        <p class="mt-3 offset-md-1">info@menufastfood.com</p>
+                    </div>
+                    <div class="row">
+                        <i class="col-md-2 fa fa-phone mt-3"></i>
+                        <p class="mt-3 offset-md-1">Yemen Sanaa<br>YemenYemen Sanaa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
